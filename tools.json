@@ -1,0 +1,1483 @@
+[
+  {
+    "name": "sbstck-dl",
+    "category": "content",
+    "tags": [
+      "substack",
+      "download",
+      "cli"
+    ],
+    "short_desc": "Substack CLI downloader (individual posts and full archive; supports paid-subscription cookies).",
+    "url": "https://github.com/alexferrari88/sbstck-dl",
+    "language": "Go",
+    "interface": "CLI",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": "MIT",
+    "last_commit_date": "2025-09-03",
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "binario/go"
+  },
+  {
+    "name": "Substack2Markdown",
+    "category": "content",
+    "tags": [
+      "substack",
+      "markdown",
+      "formatting"
+    ],
+    "short_desc": "Converts Substack publications to Markdown/HTML with a navigable index.",
+    "url": null,
+    "language": "Python",
+    "interface": "CLI",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "stale",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "pip"
+  },
+  {
+    "name": "tlosint-live",
+    "category": "environments",
+    "tags": [
+      "distro",
+      "kali",
+      "vm"
+    ],
+    "short_desc": "Trace Labs Kali-based OSINT VM with dozens of preinstalled tools.",
+    "url": "https://github.com/tracelabs/tlosint-live",
+    "language": "Shell",
+    "interface": "Distro",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": "2023-08-20",
+    "maintenance_status": "abandoned",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "iso/vm"
+  },
+  {
+    "name": "CSI Linux",
+    "category": "environments",
+    "tags": [
+      "distro",
+      "ubuntu",
+      "forensics"
+    ],
+    "short_desc": "Ubuntu-based forensic/OSINT distribution organized by workflow.",
+    "url": "https://csilinux.com",
+    "language": null,
+    "interface": "Distro",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "active",
+    "recommended_role": "backup",
+    "risk_notes": "",
+    "install_hint": "iso/vm"
+  },
+  {
+    "name": "Buscador",
+    "category": "environments",
+    "tags": [
+      "distro",
+      "people"
+    ],
+    "short_desc": "Michael Bazzell's OSINT distro focused on people investigations (discontinued).",
+    "url": null,
+    "language": null,
+    "interface": "Distro",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "abandoned",
+    "recommended_role": "archive",
+    "risk_notes": "Discontinued by the author.",
+    "install_hint": "iso/vm"
+  },
+  {
+    "name": "spiderfoot",
+    "category": "frameworks",
+    "tags": [
+      "recon",
+      "automation",
+      "graph"
+    ],
+    "short_desc": "Automated reconnaissance engine with 200+ modules; web UI + CLI.",
+    "url": "https://github.com/smicallef/spiderfoot",
+    "language": "Python",
+    "interface": "Web UI + CLI",
+    "requires_api_keys": true,
+    "api_services": [
+      "Shodan",
+      "VirusTotal",
+      "HIBP",
+      "SecurityTrails",
+      "opcionales"
+    ],
+    "license": "MIT",
+    "last_commit_date": "2023-11-05",
+    "maintenance_status": "abandoned",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "docker/pip"
+  },
+  {
+    "name": "osint_toolkit",
+    "category": "frameworks",
+    "tags": [
+      "ioc",
+      "dashboard"
+    ],
+    "short_desc": "Analyst dashboard (FastAPI+React) for IOC triage (IP, domain, hash, email).",
+    "url": null,
+    "language": "Python/JS",
+    "interface": "Web UI",
+    "requires_api_keys": true,
+    "api_services": [
+      "VirusTotal",
+      "AbuseIPDB",
+      "Shodan",
+      "opcionales"
+    ],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "docker"
+  },
+  {
+    "name": "recon-ng",
+    "category": "frameworks",
+    "tags": [
+      "recon",
+      "modular",
+      "console"
+    ],
+    "short_desc": "Modular framework with a Metasploit-style interactive console for OSINT.",
+    "url": "https://github.com/lanmaster53/recon-ng",
+    "language": "Python",
+    "interface": "CLI",
+    "requires_api_keys": true,
+    "api_services": [
+      "múltiples opcionales por módulo"
+    ],
+    "license": "GPL-3.0",
+    "last_commit_date": "2024-11-01",
+    "maintenance_status": "stale",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "pip/apt"
+  },
+  {
+    "name": "OSINT-SAN",
+    "category": "frameworks",
+    "tags": [
+      "aggregator"
+    ],
+    "short_desc": "Aggregator framework (deanon, IP geo, networks); uneven quality, broken parts.",
+    "url": null,
+    "language": "Python",
+    "interface": "CLI",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "stale",
+    "recommended_role": "archive",
+    "risk_notes": "Russian-origin; modules depend on defunct services. Redundant - superseded by spiderfoot/recon-ng.",
+    "install_hint": "pip"
+  },
+  {
+    "name": "gOSINT",
+    "category": "frameworks",
+    "tags": [
+      "email",
+      "pastebin"
+    ],
+    "short_desc": "Go OSINT: email/handle collection and Pastebin monitoring. Obsolete.",
+    "url": "https://github.com/Nhoya/gOSINT",
+    "language": "Go",
+    "interface": "CLI",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "abandoned",
+    "recommended_role": "archive",
+    "risk_notes": "Unmaintained; obsolete modules. Redundant - superseded by spiderfoot/recon-ng.",
+    "install_hint": "binario/go"
+  },
+  {
+    "name": "D4rk_Intel",
+    "category": "frameworks",
+    "tags": [
+      "toolkit"
+    ],
+    "short_desc": "Small collection of investigative scripts; limited scope.",
+    "url": null,
+    "language": "Python",
+    "interface": "CLI",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "stale",
+    "recommended_role": "archive",
+    "risk_notes": "Redundant - superseded by full frameworks.",
+    "install_hint": "manual"
+  },
+  {
+    "name": "OSINT-Framework",
+    "category": "frameworks",
+    "tags": [
+      "directory",
+      "reference"
+    ],
+    "short_desc": "osintframework.com link tree (resource directory, not executable).",
+    "url": "https://osintframework.com",
+    "language": "JS",
+    "interface": "Web",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": "MIT",
+    "last_commit_date": "2026-04-03",
+    "maintenance_status": "active",
+    "recommended_role": "backup",
+    "risk_notes": "Check that links are still live.",
+    "install_hint": "web/static"
+  },
+  {
+    "name": "maigret",
+    "category": "identity",
+    "tags": [
+      "username",
+      "email"
+    ],
+    "short_desc": "Username enumeration across thousands of sites with profile-metadata extraction.",
+    "url": "https://github.com/soxoj/maigret",
+    "language": "Python",
+    "interface": "CLI",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": "MIT",
+    "last_commit_date": "2026-05-25",
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "People enumeration: mind GDPR.",
+    "install_hint": "pip/docker"
+  },
+  {
+    "name": "social-analyzer",
+    "category": "identity",
+    "tags": [
+      "username",
+      "scoring",
+      "api"
+    ],
+    "short_desc": "Searches profiles by name/username across 1000+ sites with match scoring and an API.",
+    "url": "https://github.com/qeeqbox/social-analyzer",
+    "language": "Python/JS",
+    "interface": "CLI + API",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": "AGPL-3.0",
+    "last_commit_date": "2026-01-12",
+    "maintenance_status": "active",
+    "recommended_role": "backup",
+    "risk_notes": "People enumeration: mind GDPR.",
+    "install_hint": "pip/npm"
+  },
+  {
+    "name": "holehe",
+    "category": "identity",
+    "tags": [
+      "email"
+    ],
+    "short_desc": "Checks whether an email has an account on 120+ services without alerting the owner.",
+    "url": "https://github.com/megadose/holehe",
+    "language": "Python",
+    "interface": "CLI",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": "GPL-3.0",
+    "last_commit_date": "2024-09-10",
+    "maintenance_status": "stale",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "pip"
+  },
+  {
+    "name": "GHunt",
+    "category": "identity",
+    "tags": [
+      "google",
+      "email"
+    ],
+    "short_desc": "Google-ecosystem OSINT from an email/GAIA ID (reviews, photos, devices).",
+    "url": "https://github.com/mxrch/GHunt",
+    "language": "Python",
+    "interface": "CLI",
+    "requires_api_keys": true,
+    "api_services": [
+      "Google (cookies de sesión)"
+    ],
+    "license": "Other",
+    "last_commit_date": "2026-04-10",
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "Google API changes break modules temporarily.",
+    "install_hint": "pip"
+  },
+  {
+    "name": "PhoneInfoga",
+    "category": "identity",
+    "tags": [
+      "phone"
+    ],
+    "short_desc": "Phone-number OSINT: carrier, country, line type and Internet presence.",
+    "url": "https://github.com/sundowndev/phoneinfoga",
+    "language": "Go",
+    "interface": "CLI + Web/API",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": "GPL-3.0",
+    "last_commit_date": "2026-01-06",
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "binario/docker"
+  },
+  {
+    "name": "GhostTrack",
+    "category": "identity",
+    "tags": [
+      "ip",
+      "phone",
+      "username"
+    ],
+    "short_desc": "Simple CLI for IP/phone/username lookup; educational and limited.",
+    "url": null,
+    "language": "Python",
+    "interface": "CLI",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "stale",
+    "recommended_role": "archive",
+    "risk_notes": "Redundant - superseded by maigret + PhoneInfoga.",
+    "install_hint": "manual"
+  },
+  {
+    "name": "h8mail",
+    "category": "breach",
+    "tags": [
+      "breach",
+      "credentials"
+    ],
+    "short_desc": "Email breach search integrating multiple APIs (HIBP, Snusbase...).",
+    "url": "https://github.com/khast3x/h8mail",
+    "language": "Python",
+    "interface": "CLI",
+    "requires_api_keys": true,
+    "api_services": [
+      "HIBP",
+      "Snusbase",
+      "LeakLookup",
+      "Hunter.io"
+    ],
+    "license": "Other",
+    "last_commit_date": "2022-06-25",
+    "maintenance_status": "abandoned",
+    "recommended_role": "core",
+    "risk_notes": "Handling leaked credentials: secure storage and a legal basis.",
+    "install_hint": "pip"
+  },
+  {
+    "name": "HaveIBeenPwned",
+    "category": "breach",
+    "tags": [
+      "breach",
+      "service"
+    ],
+    "short_desc": "Service to check email/password exposure in known breaches.",
+    "url": "https://haveibeenpwned.com",
+    "language": null,
+    "interface": "API",
+    "requires_api_keys": true,
+    "api_services": [
+      "HIBP API key (email de pago; password gratis)"
+    ],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "service"
+  },
+  {
+    "name": "Dehashed",
+    "category": "breach",
+    "tags": [
+      "breach",
+      "service",
+      "paid"
+    ],
+    "short_desc": "Commercial breach database with multi-field search.",
+    "url": "https://dehashed.com",
+    "language": null,
+    "interface": "API",
+    "requires_api_keys": true,
+    "api_services": [
+      "Dehashed API (de pago)"
+    ],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "active",
+    "recommended_role": "backup",
+    "risk_notes": "Paid service; sensitive credential handling.",
+    "install_hint": "service"
+  },
+  {
+    "name": "theHarvester",
+    "category": "domains",
+    "tags": [
+      "recon",
+      "email",
+      "subdomain"
+    ],
+    "short_desc": "Classic collection of emails, hosts and subdomains from a domain.",
+    "url": "https://github.com/laramies/theHarvester",
+    "language": "Python",
+    "interface": "CLI",
+    "requires_api_keys": true,
+    "api_services": [
+      "Shodan",
+      "Hunter.io",
+      "SecurityTrails (opcionales)"
+    ],
+    "license": null,
+    "last_commit_date": "2026-05-23",
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "pip/apt"
+  },
+  {
+    "name": "amass",
+    "category": "domains",
+    "tags": [
+      "subdomain",
+      "graph",
+      "owasp"
+    ],
+    "short_desc": "Subdomain discovery (passive + active) with an infrastructure graph. OWASP.",
+    "url": "https://github.com/owasp-amass/amass",
+    "language": "Go",
+    "interface": "CLI",
+    "requires_api_keys": true,
+    "api_services": [
+      "múltiples opcionales"
+    ],
+    "license": "Other",
+    "last_commit_date": "2026-04-07",
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "binario/docker"
+  },
+  {
+    "name": "subfinder",
+    "category": "domains",
+    "tags": [
+      "subdomain",
+      "passive",
+      "fast"
+    ],
+    "short_desc": "Fast subdomain discovery using passive sources only.",
+    "url": "https://github.com/projectdiscovery/subfinder",
+    "language": "Go",
+    "interface": "CLI",
+    "requires_api_keys": true,
+    "api_services": [
+      "Censys",
+      "Shodan",
+      "VirusTotal",
+      "SecurityTrails (opcionales)"
+    ],
+    "license": "MIT",
+    "last_commit_date": "2026-05-19",
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "binario/go"
+  },
+  {
+    "name": "Shodan CLI",
+    "category": "domains",
+    "tags": [
+      "devices",
+      "ports",
+      "service"
+    ],
+    "short_desc": "CLI for the search engine of Internet-exposed devices (ports, banners, certs).",
+    "url": "https://www.shodan.io",
+    "language": "Python",
+    "interface": "CLI",
+    "requires_api_keys": true,
+    "api_services": [
+      "Shodan API key"
+    ],
+    "license": "Other",
+    "last_commit_date": "2023-12-17",
+    "maintenance_status": "abandoned",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "pip"
+  },
+  {
+    "name": "Censys CLI",
+    "category": "domains",
+    "tags": [
+      "certificates",
+      "service"
+    ],
+    "short_desc": "CLI for the search engine focused on TLS certificates and HTTPS services.",
+    "url": "https://censys.io",
+    "language": "Python",
+    "interface": "CLI",
+    "requires_api_keys": true,
+    "api_services": [
+      "Censys API key"
+    ],
+    "license": "Apache-2.0",
+    "last_commit_date": "2025-12-11",
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "pip"
+  },
+  {
+    "name": "exiftool",
+    "category": "metadata",
+    "tags": [
+      "exif",
+      "metadata"
+    ],
+    "short_desc": "Read/write metadata across hundreds of formats (EXIF, GPS, author, software).",
+    "url": "https://exiftool.org",
+    "language": "Perl",
+    "interface": "CLI",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": "GPL-3.0",
+    "last_commit_date": "2026-05-05",
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "apt/brew"
+  },
+  {
+    "name": "metagoofil",
+    "category": "metadata",
+    "tags": [
+      "documents",
+      "passive"
+    ],
+    "short_desc": "Extracts metadata from a domain's public documents (authors, paths, software).",
+    "url": "https://github.com/laramies/metagoofil",
+    "language": "Python",
+    "interface": "CLI",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": "GPL-2.0",
+    "last_commit_date": "2015-08-13",
+    "maintenance_status": "abandoned",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "pip"
+  },
+  {
+    "name": "FOCA",
+    "category": "metadata",
+    "tags": [
+      "documents",
+      "gui",
+      "windows"
+    ],
+    "short_desc": "GUI document-metadata analysis (ElevenPaths). Windows only.",
+    "url": "https://github.com/ElevenPaths/FOCA",
+    "language": "C#",
+    "interface": "GUI",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": "GPL-3.0",
+    "last_commit_date": "2021-08-27",
+    "maintenance_status": "abandoned",
+    "recommended_role": "backup",
+    "risk_notes": "Windows only.",
+    "install_hint": "binario-windows"
+  },
+  {
+    "name": "Telepathy-Community",
+    "category": "messaging",
+    "tags": [
+      "telegram",
+      "scraping"
+    ],
+    "short_desc": "Telegram OSINT toolkit (message archiving, members, channel analysis).",
+    "url": null,
+    "language": "Python",
+    "interface": "CLI",
+    "requires_api_keys": true,
+    "api_services": [
+      "Telegram api_id/api_hash"
+    ],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "stale",
+    "recommended_role": "core",
+    "risk_notes": "Telegram rate limits; members' personal data.",
+    "install_hint": "pip"
+  },
+  {
+    "name": "Telegram-OSINT",
+    "category": "messaging",
+    "tags": [
+      "telegram",
+      "scripts"
+    ],
+    "short_desc": "Lightweight utilities/scripts for Telegram lookup and scraping.",
+    "url": null,
+    "language": "Python",
+    "interface": "CLI",
+    "requires_api_keys": true,
+    "api_services": [
+      "Telegram api_id/api_hash"
+    ],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "stale",
+    "recommended_role": "backup",
+    "risk_notes": "",
+    "install_hint": "pip"
+  },
+  {
+    "name": "matkap",
+    "category": "messaging",
+    "tags": [
+      "telegram",
+      "bots",
+      "offensive"
+    ],
+    "short_desc": "Hunts malicious Telegram bots: dumps traffic/messages from a bot token.",
+    "url": null,
+    "language": "Python",
+    "interface": "CLI",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "Offensive niche; requires a bot token to investigate.",
+    "install_hint": "pip"
+  },
+  {
+    "name": "Osintgram",
+    "category": "messaging",
+    "tags": [
+      "instagram",
+      "interactive"
+    ],
+    "short_desc": "Instagram OSINT (followers, emails, locations). Fragile to IG changes.",
+    "url": "https://github.com/Datalux/Osintgram",
+    "language": "Python",
+    "interface": "CLI",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": "GPL-3.0",
+    "last_commit_date": "2025-08-25",
+    "maintenance_status": "active",
+    "recommended_role": "archive",
+    "risk_notes": "Legacy/broken since 2022-23 (Instagram endpoint changes). Prefer Instaloader.",
+    "install_hint": "pip"
+  },
+  {
+    "name": "Instaloader",
+    "category": "messaging",
+    "tags": [
+      "instagram",
+      "download"
+    ],
+    "short_desc": "Stable downloader of Instagram profiles/posts/stories with metadata.",
+    "url": "https://github.com/instaloader/instaloader",
+    "language": "Python",
+    "interface": "CLI",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": "MIT",
+    "last_commit_date": "2026-04-15",
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "Scraping subject to Instagram ToS.",
+    "install_hint": "pip"
+  },
+  {
+    "name": "snscrape",
+    "category": "messaging",
+    "tags": [
+      "twitter",
+      "scraping",
+      "multi"
+    ],
+    "short_desc": "Social-network scraper (Twitter/X, Reddit, Mastodon...) without an official API.",
+    "url": "https://github.com/JustAnotherArchivist/snscrape",
+    "language": "Python",
+    "interface": "CLI + Library",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": "GPL-3.0",
+    "last_commit_date": "2023-06-22",
+    "maintenance_status": "abandoned",
+    "recommended_role": "conditional",
+    "risk_notes": "Largely dead for Twitter/X as of 2026; minimal maintenance. Still works for Reddit/Mastodon. Use official X API or a commercial scraper for X.",
+    "install_hint": "pip"
+  },
+  {
+    "name": "PimEyes",
+    "category": "imagegeo",
+    "tags": [
+      "face",
+      "reverse-image",
+      "service"
+    ],
+    "short_desc": "Commercial facial search: finds other photos of a person across the Internet.",
+    "url": "https://pimeyes.com",
+    "language": null,
+    "interface": "Web",
+    "requires_api_keys": true,
+    "api_services": [
+      "suscripción PimEyes"
+    ],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "active",
+    "recommended_role": "conditional",
+    "risk_notes": "Serious ethical/legal implications; regulated or banned in some jurisdictions.",
+    "install_hint": "service"
+  },
+  {
+    "name": "Yandex Images",
+    "category": "imagegeo",
+    "tags": [
+      "reverse-image",
+      "service"
+    ],
+    "short_desc": "The best free reverse image search, strong on faces and location.",
+    "url": "https://yandex.com/images",
+    "language": null,
+    "interface": "Web",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "service"
+  },
+  {
+    "name": "GeoSpy",
+    "category": "imagegeo",
+    "tags": [
+      "geolocation",
+      "ai",
+      "service"
+    ],
+    "short_desc": "AI geolocation estimate of photos from visual content.",
+    "url": "https://geospy.ai",
+    "language": null,
+    "interface": "Web/API",
+    "requires_api_keys": true,
+    "api_services": [
+      "GeoSpy (según plan)"
+    ],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "active",
+    "recommended_role": "experimental",
+    "risk_notes": "Variable accuracy; not for use as definitive proof.",
+    "install_hint": "service"
+  },
+  {
+    "name": "SunCalc",
+    "category": "imagegeo",
+    "tags": [
+      "chronolocation",
+      "sun"
+    ],
+    "short_desc": "Solar position for chronolocation via shadow analysis.",
+    "url": "https://www.suncalc.org",
+    "language": null,
+    "interface": "Web",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "service"
+  },
+  {
+    "name": "InsightFace",
+    "category": "imagegeo",
+    "tags": [
+      "face",
+      "deep-learning"
+    ],
+    "short_desc": "Open-source facial-recognition library (ArcFace, RetinaFace).",
+    "url": "https://github.com/deepinsight/insightface",
+    "language": "Python",
+    "interface": "Library",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": "2026-05-23",
+    "maintenance_status": "active",
+    "recommended_role": "experimental",
+    "risk_notes": "Controlled verification only, not mass surveillance; requires a GPU.",
+    "install_hint": "pip"
+  },
+  {
+    "name": "DeepFace",
+    "category": "imagegeo",
+    "tags": [
+      "face",
+      "verification"
+    ],
+    "short_desc": "Python wrapper unifying facial-recognition models under a simple API.",
+    "url": "https://github.com/serengil/deepface",
+    "language": "Python",
+    "interface": "Library",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": "MIT",
+    "last_commit_date": "2026-05-13",
+    "maintenance_status": "active",
+    "recommended_role": "experimental",
+    "risk_notes": "Controlled verification only, not mass surveillance.",
+    "install_hint": "pip"
+  },
+  {
+    "name": "waybackurls",
+    "category": "webarchive",
+    "tags": [
+      "wayback",
+      "urls"
+    ],
+    "short_desc": "Extracts all of a domain's historical URLs indexed by the Wayback Machine.",
+    "url": "https://github.com/tomnomnom/waybackurls",
+    "language": "Go",
+    "interface": "CLI",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": "2022-04-05",
+    "maintenance_status": "abandoned",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "binario/go"
+  },
+  {
+    "name": "gau",
+    "category": "webarchive",
+    "tags": [
+      "urls",
+      "commoncrawl"
+    ],
+    "short_desc": "Like waybackurls but queries Wayback + Common Crawl + OTX.",
+    "url": "https://github.com/lc/gau",
+    "language": "Go",
+    "interface": "CLI",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": "MIT",
+    "last_commit_date": "2026-03-20",
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "binario/go"
+  },
+  {
+    "name": "waybackpy",
+    "category": "webarchive",
+    "tags": [
+      "wayback",
+      "python",
+      "library"
+    ],
+    "short_desc": "Python library for the Wayback Machine API (snapshots by date).",
+    "url": "https://github.com/akamhy/waybackpy",
+    "language": "Python",
+    "interface": "Library",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": "MIT",
+    "last_commit_date": "2022-11-17",
+    "maintenance_status": "abandoned",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "pip"
+  },
+  {
+    "name": "Maltego CE",
+    "category": "visualization",
+    "tags": [
+      "graph",
+      "transforms"
+    ],
+    "short_desc": "Reference platform for entity graph analysis with transforms.",
+    "url": "https://www.maltego.com",
+    "language": "Java",
+    "interface": "GUI",
+    "requires_api_keys": true,
+    "api_services": [
+      "transforms comerciales requieren suscripción"
+    ],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "CE is limited; commercial transforms are paid.",
+    "install_hint": "binario"
+  },
+  {
+    "name": "Gephi",
+    "category": "visualization",
+    "tags": [
+      "graph",
+      "opensource"
+    ],
+    "short_desc": "Free network/graph visualization and analysis software (metrics, communities).",
+    "url": "https://gephi.org",
+    "language": "Java",
+    "interface": "GUI",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": "GPL-3.0",
+    "last_commit_date": "2026-05-19",
+    "maintenance_status": "active",
+    "recommended_role": "backup",
+    "risk_notes": "",
+    "install_hint": "binario"
+  },
+  {
+    "name": "awesome-osint",
+    "category": "methodology",
+    "tags": [
+      "list",
+      "reference"
+    ],
+    "short_desc": "The reference curated list of OSINT tools and resources (Markdown).",
+    "url": "https://github.com/jivoi/awesome-osint",
+    "language": "Markdown",
+    "interface": "Reference",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": "Other",
+    "last_commit_date": "2026-05-21",
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "git"
+  },
+  {
+    "name": "Awesome-Telegram-OSINT",
+    "category": "methodology",
+    "tags": [
+      "list",
+      "telegram"
+    ],
+    "short_desc": "Curated list of Telegram-specific OSINT resources.",
+    "url": null,
+    "language": "Markdown",
+    "interface": "Reference",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "git"
+  },
+  {
+    "name": "Open-source-tools-for-CTI",
+    "category": "methodology",
+    "tags": [
+      "list",
+      "cti"
+    ],
+    "short_desc": "List of open-source Cyber Threat Intelligence tools.",
+    "url": null,
+    "language": "Markdown",
+    "interface": "Reference",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "stale",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "git"
+  },
+  {
+    "name": "the-art-of-pivoting",
+    "category": "methodology",
+    "tags": [
+      "pivoting",
+      "method"
+    ],
+    "short_desc": "Methodological material on pivoting in OSINT investigations.",
+    "url": null,
+    "language": "Markdown",
+    "interface": "Reference",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "stale",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "git"
+  },
+  {
+    "name": "Meilisearch",
+    "category": "infra",
+    "tags": [
+      "search",
+      "index"
+    ],
+    "short_desc": "Full-text search engine to index and query tool outputs.",
+    "url": "https://www.meilisearch.com",
+    "language": "Rust",
+    "interface": "Service",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": "Other",
+    "last_commit_date": "2026-05-21",
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "docker"
+  },
+  {
+    "name": "Copernicus Browser",
+    "category": "geoint",
+    "tags": [
+      "satellite",
+      "sentinel",
+      "imagery"
+    ],
+    "short_desc": "Free official browser for ESA Sentinel/Copernicus data (true-color, NDVI, SAR, time series).",
+    "url": "https://browser.dataspace.copernicus.eu/",
+    "language": null,
+    "interface": "Web UI",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "web/account"
+  },
+  {
+    "name": "Sentinel Hub",
+    "category": "geoint",
+    "tags": [
+      "satellite",
+      "api",
+      "processing"
+    ],
+    "short_desc": "Web + API access to Sentinel/Landsat/commercial imagery with custom processing scripts.",
+    "url": "https://www.sentinel-hub.com/",
+    "language": null,
+    "interface": "Web UI + API",
+    "requires_api_keys": true,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "web/api"
+  },
+  {
+    "name": "QGIS",
+    "category": "geoint",
+    "tags": [
+      "gis",
+      "geospatial",
+      "analysis"
+    ],
+    "short_desc": "Reference open-source GIS to overlay, measure and analyze geospatial layers.",
+    "url": "https://qgis.org/",
+    "language": null,
+    "interface": "Desktop",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "installer"
+  },
+  {
+    "name": "Ahmia",
+    "category": "darkweb",
+    "tags": [
+      "tor",
+      "onion",
+      "search"
+    ],
+    "short_desc": "Search engine indexing .onion services, reachable from the clearnet.",
+    "url": "https://ahmia.fi/",
+    "language": null,
+    "interface": "Web UI",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "Visit results only via Tor.",
+    "install_hint": "web"
+  },
+  {
+    "name": "OnionSearch",
+    "category": "darkweb",
+    "tags": [
+      "tor",
+      "onion",
+      "scraping"
+    ],
+    "short_desc": "CLI that scrapes results across multiple dark-web search engines at once.",
+    "url": "https://github.com/megadose/OnionSearch",
+    "language": null,
+    "interface": "CLI",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "active",
+    "recommended_role": "backup",
+    "risk_notes": "Use via Tor and an isolated VM.",
+    "install_hint": "pip"
+  },
+  {
+    "name": "OpenCorporates",
+    "category": "corporate",
+    "tags": [
+      "companies",
+      "registry",
+      "duediligence"
+    ],
+    "short_desc": "The largest open database of companies worldwide (officers, filings, cross-jurisdiction links).",
+    "url": "https://opencorporates.com/",
+    "language": null,
+    "interface": "Web UI + API",
+    "requires_api_keys": true,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "web/api"
+  },
+  {
+    "name": "GLEIF",
+    "category": "corporate",
+    "tags": [
+      "lei",
+      "entity",
+      "ownership"
+    ],
+    "short_desc": "Global index of Legal Entity Identifiers (LEI): authoritative entity IDs and ownership.",
+    "url": "https://www.gleif.org/",
+    "language": null,
+    "interface": "Web UI + API",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "web/api"
+  },
+  {
+    "name": "OCCRP Aleph",
+    "category": "corporate",
+    "tags": [
+      "leaks",
+      "registries",
+      "journalism"
+    ],
+    "short_desc": "Searchable archive cross-referencing public records, registries and leaks.",
+    "url": "https://aleph.occrp.org/",
+    "language": null,
+    "interface": "Web UI",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "web/account"
+  },
+  {
+    "name": "Companies House",
+    "category": "corporate",
+    "tags": [
+      "uk",
+      "registry",
+      "filings"
+    ],
+    "short_desc": "UK company registry with a free API: officers, filings, charges.",
+    "url": "https://developer.company-information.service.gov.uk/",
+    "language": null,
+    "interface": "API",
+    "requires_api_keys": true,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "UK only.",
+    "install_hint": "api"
+  },
+  {
+    "name": "Blockchair",
+    "category": "crypto",
+    "tags": [
+      "blockchain",
+      "explorer",
+      "multichain"
+    ],
+    "short_desc": "Multi-chain block explorer with powerful search and filters (BTC, ETH and more).",
+    "url": "https://blockchair.com/",
+    "language": null,
+    "interface": "Web UI + API",
+    "requires_api_keys": true,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "web/api"
+  },
+  {
+    "name": "Etherscan",
+    "category": "crypto",
+    "tags": [
+      "ethereum",
+      "evm",
+      "explorer"
+    ],
+    "short_desc": "The reference Ethereum/EVM explorer: transactions, tokens, contracts, address labels.",
+    "url": "https://etherscan.io/",
+    "language": null,
+    "interface": "Web UI + API",
+    "requires_api_keys": true,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "web/api"
+  },
+  {
+    "name": "Breadcrumbs",
+    "category": "crypto",
+    "tags": [
+      "blockchain",
+      "tracing",
+      "graph"
+    ],
+    "short_desc": "Visual investigation tool to trace and graph on-chain flows across wallets.",
+    "url": "https://www.breadcrumbs.app/",
+    "language": null,
+    "interface": "Web UI",
+    "requires_api_keys": true,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "web/account"
+  },
+  {
+    "name": "WalletExplorer",
+    "category": "crypto",
+    "tags": [
+      "bitcoin",
+      "clustering"
+    ],
+    "short_desc": "Bitcoin wallet clustering: groups addresses likely controlled by the same owner.",
+    "url": "https://www.walletexplorer.com/",
+    "language": null,
+    "interface": "Web UI",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "stale",
+    "recommended_role": "backup",
+    "risk_notes": "",
+    "install_hint": "web"
+  },
+  {
+    "name": "ADSBExchange",
+    "category": "transport",
+    "tags": [
+      "adsb",
+      "aircraft",
+      "tracking"
+    ],
+    "short_desc": "Unfiltered ADS-B aircraft tracking (shows aircraft filtered platforms hide).",
+    "url": "https://www.adsbexchange.com/",
+    "language": null,
+    "interface": "Web UI + API",
+    "requires_api_keys": true,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "web/api"
+  },
+  {
+    "name": "OpenSky Network",
+    "category": "transport",
+    "tags": [
+      "adsb",
+      "aircraft",
+      "research"
+    ],
+    "short_desc": "Research-grade aircraft-tracking data with a historical API.",
+    "url": "https://opensky-network.org/",
+    "language": null,
+    "interface": "Web UI + API",
+    "requires_api_keys": true,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "web/api"
+  },
+  {
+    "name": "MarineTraffic",
+    "category": "transport",
+    "tags": [
+      "ais",
+      "maritime",
+      "vessels"
+    ],
+    "short_desc": "The reference AIS platform for vessel positions and history.",
+    "url": "https://www.marinetraffic.com/",
+    "language": null,
+    "interface": "Web UI + API",
+    "requires_api_keys": true,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "web"
+  },
+  {
+    "name": "VesselFinder",
+    "category": "transport",
+    "tags": [
+      "ais",
+      "maritime"
+    ],
+    "short_desc": "An AIS vessel-tracking alternative.",
+    "url": "https://www.vesselfinder.com/",
+    "language": null,
+    "interface": "Web UI",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "active",
+    "recommended_role": "backup",
+    "risk_notes": "",
+    "install_hint": "web"
+  },
+  {
+    "name": "dump1090",
+    "category": "transport",
+    "tags": [
+      "sdr",
+      "adsb",
+      "self-hosted"
+    ],
+    "short_desc": "Self-hosted SDR decoder to receive ADS-B locally with an RTL-SDR dongle.",
+    "url": "https://github.com/antirez/dump1090",
+    "language": "C",
+    "interface": "CLI",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "stale",
+    "recommended_role": "experimental",
+    "risk_notes": "Requires SDR hardware.",
+    "install_hint": "build"
+  },
+  {
+    "name": "start.me",
+    "category": "methodology",
+    "tags": [
+      "dashboard",
+      "curation",
+      "links"
+    ],
+    "short_desc": "Platform for building curated link dashboards; popular for organizing OSINT tools and sources into shareable boards.",
+    "url": "https://start.me/",
+    "language": null,
+    "interface": "Web UI",
+    "requires_api_keys": false,
+    "api_services": [],
+    "license": null,
+    "last_commit_date": null,
+    "maintenance_status": "active",
+    "recommended_role": "core",
+    "risk_notes": "",
+    "install_hint": "web"
+  }
+]
